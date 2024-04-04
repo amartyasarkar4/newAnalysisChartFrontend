@@ -1,7 +1,6 @@
 import MainPage from "@/components/disscussion";
-import Image from "next/image";
 
-export default function Home() {
+const DisscussionPage = async () => {
   return (
     <div
       style={{
@@ -12,4 +11,6 @@ export default function Home() {
       <MainPage />
     </div>
   );
-}
+};
+
+export default DisscussionPage;
